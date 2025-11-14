@@ -48,7 +48,7 @@ public class Worker : BackgroundService
     public override Task StartAsync(CancellationToken cancellationToken)
     {
         var host = Dns.GetHostEntry(Dns.GetHostName());
-        var ipAddress = host.AddressList.FirstOrDefault(ip => ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)?? IPAddress.Parse("127.0.0.1");
+        var ipAddress = host.AddressList.FirstOrDefault(ip => ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)?? IPAddress.Loopback;
         var port = 10502;
         _modbusServer.CreateServer(ipAddress, port);
         _modbusServer.StartServer();

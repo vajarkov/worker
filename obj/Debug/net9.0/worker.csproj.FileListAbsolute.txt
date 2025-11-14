@@ -69,3 +69,10 @@
 /home/vajarkov/worker/obj/Debug/net9.0/worker.pdb
 /home/vajarkov/worker/obj/Debug/net9.0/worker.genruntimeconfig.cache
 /home/vajarkov/worker/obj/Debug/net9.0/ref/worker.dll
+/home/vajarkov/worker/bin/Debug/net9.0/Microsoft.Extensions.Hosting.Systemd.dll
+/home/vajarkov/worker/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll
+/home/vajarkov/worker/bin/Debug/net9.0/System.IO.Pipelines.dll
+/home/vajarkov/worker/bin/Debug/net9.0/System.Text.Encodings.Web.dll
+/home/vajarkov/worker/bin/Debug/net9.0/System.Text.Json.dll
+/home/vajarkov/worker/bin/Debug/net9.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/vajarkov/worker/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Text.Encodings.Web.dll

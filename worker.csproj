@@ -9,7 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="Iot.Device.Bindings" Version="4.0.1" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="10.0.0" />
     <PackageReference Include="Nmodbus" Version="3.0.81" />
   </ItemGroup>
 </Project>
