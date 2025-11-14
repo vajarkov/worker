@@ -5,7 +5,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Net;
 using System.Linq;
-using DevicePerformance = PiDevicePerformanceInfo.DevicePerformance;
+using DevicePerformance = DeviceMonitoring.Models.DevicePerformance;
+//using ModbusClient = ModbusClient;
+//using ModbusServer = ModbusServer;
+//using MBClient;
 
 
 
@@ -17,7 +20,7 @@ public class Worker : BackgroundService
     private readonly ILogger<Worker> _logger;
     private readonly ModbusServer _modbusServer;
     private readonly PiDevicePerformanceInfo _performanceInfo;
-    private readonly MBCliennt _modbusClient;
+    private readonly ModbusClient _modbusClient;
     private byte _SlaveId = 1;
 
 

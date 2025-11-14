@@ -1,17 +1,12 @@
 using System.Linq;
 using System.Threading;
 using Iot.Device.CpuTemperature;
+using DevicePerformance = DeviceMonitoring.Models.DevicePerformance;
 
-
-
+//namespace PiDevicePerformanceInfo;
 public class PiDevicePerformanceInfo
 {
-    public class DevicePerformance
-    {
-        public float CpuUsage { get; set; }
-        public float MemoryUsage { get; set; }
-        public float CpuHeat { get; set; }
-    }
+    
 
 
     private readonly CpuTemperature _cpuTemperature;
