@@ -1,0 +1,5 @@
+/home/vajarkov/worker/obj/Debug/net9.0/worker.csproj.AssemblyReference.cache
+/home/vajarkov/worker/obj/Debug/net9.0/worker.GeneratedMSBuildEditorConfig.editorconfig
+/home/vajarkov/worker/obj/Debug/net9.0/worker.AssemblyInfoInputs.cache
+/home/vajarkov/worker/obj/Debug/net9.0/worker.AssemblyInfo.cs
+/home/vajarkov/worker/obj/Debug/net9.0/worker.csproj.CoreCompileInputs.cache
